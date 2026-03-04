@@ -3,8 +3,8 @@
 ; Date: 3/7/26
 ; MPLAB Version: v6.30
 ;------------------------------------------------------------------------------
-; Program Vervsion: V2
-; Patch notes of V; Updated code and implemented comments & Hex-Dec conversion
+; Program Vervsion: V3 
+; Patch notes of V; github test(added sleep)
 ; Purpose: Measure, Set and adjust temp accordingly.
 ; Inputs: Temperature readings
 ; Outputs: PortD
@@ -244,4 +244,5 @@ Loop10sMeas:
     goto    ENDPROG           ; go back to your end/idle loop
    
 ENDPROG:
+    sleep
     end 
